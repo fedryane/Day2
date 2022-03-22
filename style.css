@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background-color: rgb(206, 206, 206);
+}
+
+nav {
+  display: flex;
+  background-color: rgb(241, 227, 227);
+}
+
+.nav-left {
+  flex: 50%;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left li {
+  display: inline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.nav-left img {
+  height: 40px;
+  padding-top: 2px;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+#homepage {
+  font-weight: bolder;
+}
+
+.nav-right {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-right: 100px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+  margin: 80px;
+  box-shadow: 0px 10px 20px rgba(185, 178, 178, 0.973);
+  border-radius: 10px;
+}
+
+.container section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.section-right {
+  flex: 30%;
+  padding-left: 100px;
+}
+
+.section-left {
+  flex: 70%;
+}
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact button {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 35px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact img {
+  height: 30px;
+  position: absolute;
+  padding-top: 1px;
+  padding-left: 7px;
+  width: 30px;
+}
+
+.social-media {
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.social-media i {
+  padding: 10px;
+  height: 1px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: black;
+}
+
+.info p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
