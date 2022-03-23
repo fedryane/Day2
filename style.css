@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: rgb(206, 206, 206);
+  padding: 0;
 }
 
 nav {
@@ -58,28 +59,34 @@ nav {
 }
 
 .container {
-  background-color: white;
-  padding: 50px;
-  margin: 80px;
-  box-shadow: 0px 10px 20px rgba(185, 178, 178, 0.973);
-  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .container section {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 10px;
+  width: 900px;
+  height: 430px;
+  padding: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(208, 204, 204, 0.973);
 }
 
 .section-right {
-  flex: 30%;
-  padding-left: 100px;
+  flex: 17%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .section-left {
-  flex: 70%;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
@@ -133,8 +140,22 @@ nav {
 .info p {
   text-align: justify;
   font-size: 20px;
+  padding-right: 50px;
 }
 
 .info {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  box-shadow: 0px 2px 5px rgba(131, 80, 80, 0.973);
+  border-radius: 7px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card img {
+  width: 350px;
 }
